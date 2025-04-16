@@ -1,0 +1,14 @@
+{% extends "store/main.html" %}
+{% load static%}
+{%block content%}
+    <div class="items">
+        <div class="item__content">
+        <img src="{%static 'images/placeholder.png'%}" height="200">
+        <p class="disc">Product</p>
+        <div class="store__buttons"><div class="btn_collect"><button><a href="">Add to cart</a>
+            </button><button><a href="">Buy now</a></button></div>
+            <p class="price">$12</p>
+        </div>
+        </div>
+    </div>
+{% endblock%}
