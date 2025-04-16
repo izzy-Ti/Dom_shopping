@@ -78,17 +78,22 @@ body{
     padding: 10px 10px;
     margin: 8px 2px;
     background-color: transparent;
-    border-color:rgb(26, 24, 52) ;
+    border-color:rgb(64, 64, 64);
     border-radius: 5px;
-    transition: all 0.5s ease;
-}
-.items .store__buttons button:hover ,.items .store__buttons a:hover{
-    border-color: orange;
-}
-.items .store__buttons button a{
-    text-decoration: none;
-    color: black;
+    transition: all 0.35s ease;
     font-size: 1.2rem;
+    outline: none;
+}
+.items .store__buttons button:hover{
+    border-color: green;
+    background-color: green;
+    outline: none;
+    color: white;
+}
+.items .store__buttons button:nth-child(2):hover {
+    border-color: black;
+    background-color: black;
+    color: white;
 }
 .items .store__buttons p{
     font-size: 1.7rem;
