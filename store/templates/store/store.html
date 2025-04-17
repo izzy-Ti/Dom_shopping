@@ -3,11 +3,11 @@
 {%block content%}
         <div class="items">
                 <div class="item__content">
-                    <img src="{%static 'images/placeholder.png'%}" height="200">
-                    <p class="disc">Product</p>
+                    <img src="{{posts.product.url}}" height="200">
+                    <p class="disc">{{posts.name}}</p>
                     <div class="store__buttons"><div class="btn_collect"><button>Add to cart</button>
                         <button>Buy now</button></div>
-                        <p class="price">$12</p>
+                        <p class="price">{{posts.price}}</p>
                 </div>
             </div>
     </div>
